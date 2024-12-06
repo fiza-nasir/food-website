@@ -1,0 +1,164 @@
+/* General Styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  line-height: 1.6;
+  color: #3D3D3D;
+  background-color: #FAF9F6;
+}
+
+/* Header */
+header {
+  background-color: #3A5A78;
+  color: #FFF;
+  padding: 1rem 0;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+}
+
+header ul li {
+  margin-left: 1.5rem;
+}
+
+header ul li a {
+  color: #FFF;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 2rem 0;
+  background-color: #547A92;
+  color: #FFF;
+}
+
+.hero h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+}
+
+.hero .btn {
+  display: inline-block;
+  background: #6B4226;
+  color: #FFF;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.hero .btn:hover {
+  background: #57371F;
+}
+
+/* About Section */
+.about {
+  text-align: center;
+  padding: 2rem;
+}
+
+.about img {
+  width: 100%;
+  max-width: 800px;
+  margin-top: 1rem;
+  border-radius: 10px;
+}
+
+/* Products Section */
+.products {
+  padding: 2rem;
+  background: #EEE;
+}
+
+.products h2 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.product {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.product img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+.product h3 {
+  margin-top: 0.5rem;
+}
+
+.product .btn {
+  background: #547A92;
+  color: #FFF;
+  padding: 0.5rem 1rem;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.product .btn:hover {
+  background: #3A5A78;
+}
+
+/* Contact Section */
+.contact {
+  padding: 2rem;
+  text-align: center;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact label {
+  margin: 0.5rem 0 0.2rem;
+}
+
+.contact input,
+.contact textarea {
+  width: 80%;
+  max-width: 500px;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.contact button {
+  background: #6B4226;
+  color: #FFF;
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.contact button:hover {
+  background: #57371F;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 1rem 0;
+  background: #3A5A78;
+  color: #FFF;
+}
